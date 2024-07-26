@@ -23,6 +23,17 @@
       crossorigin="anonymous"
       src="https://connect.facebook.net/en_US/sdk.js"
     ></script>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: "996283405283548", // Your Facebook app ID
+          autoLogAppEvents: true,
+          xfbml: true,
+          version: "v10.0",
+        });
+        FB.CustomerChat.showDialog();
+      };
+    </script>
 
     <!-- Your Chat Plugin code -->
     <div
