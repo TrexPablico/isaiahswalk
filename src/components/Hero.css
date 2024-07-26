@@ -1,0 +1,8 @@
+.custom-dots .slick-dots {
+  bottom: 10px; /* Adjust this value to move the dots higher or lower */
+}
+
+.custom-dots .slick-dots li button:before {
+  font-size: 12px; /* Adjust dot size if needed */
+  color: white; /* Change dot color if needed */
+}
